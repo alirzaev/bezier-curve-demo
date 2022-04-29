@@ -1,0 +1,17 @@
+{
+  "name": "bezier-curve-demo",
+  "version": "0.1.0",
+  "description": "A simple demonstration of the Bézier curve",
+  "scripts": {
+    "start": "serve -l 8000"
+  },
+  "keywords": ["curve", "bézier"],
+  "author": {
+    "name": "AliRzaev",
+    "email": "alirzaev1996@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}

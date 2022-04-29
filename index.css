@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.canvas-wrapper {
+  display: block;
+  width: 640px;
+  height: 480px;
+  margin: 30px auto 0 auto;
+  position: relative;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+
+.container {
+  margin: 10px auto;
+  padding: 0 10px;
+  max-width: 800px;
+}
+
+.point {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid red;
+  background-color: rgb(255, 255, 255, 0.5);
+  position: absolute;
+  transition: background-color 0.125s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.point:hover {
+  background-color: rgb(255, 255, 255, 1);
+}
+
+.curve-params {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  margin: 30px auto 0 auto;
+}

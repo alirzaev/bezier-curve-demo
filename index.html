@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bézier curve demo</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <h1><center>Bézier curve demo</center></h1>
+        <div class="canvas-wrapper">
+            <canvas id="canvas" width="640" height="480"></canvas>
+
+            <div id="point1" class="point">1</div>
+            <div id="point2" class="point">2</div>
+            <div id="point3" class="point">3</div>
+            <div id="point4" class="point">4</div>
+        </div>
+        <div class="curve-params">
+            <div>
+                <label for="point-1-value">Point #1:</label>
+                <input id="point-1-value" type="text" readonly/>
+            </div>
+            <div>
+                <label for="point-2-value">Point #2:</label>
+                <input id="point-2-value" type="text" readonly/>
+            </div>
+            <div>
+                <label for="point-3-value">Point #3:</label>
+                <input id="point-3-value" type="text" readonly/>
+            </div>
+            <div>
+                <label for="point-4-value">Point #4:</label>
+                <input id="point-4-value" type="text" readonly/>
+            </div>
+            <button type="button" id="reset-curve">Reset</button>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
